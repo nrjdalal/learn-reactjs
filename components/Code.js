@@ -22,7 +22,7 @@ const CodeJavascript = (props) => {
       <br />
       <br />
       <pre>
-        <code className="language-javascript rounded">{props.children}</code>
+        <code className="language-javascript">{props.children}</code>
       </pre>
     </>
   )
