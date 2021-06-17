@@ -1,8 +1,5 @@
 import { useEffect } from 'react'
 
-// import Prism from 'prismjs'
-// import 'prismjs/themes/prism-tomorrow.css'
-
 import hljs from 'highlight.js'
 import 'highlight.js/styles/github-dark.css'
 
@@ -24,7 +21,7 @@ const CodeJavascript = (props) => {
     <>
       <br />
       <br />
-      <div className="bg-[#0d1117] p-4 overflow-x-scroll">
+      <div className="bg-[#0d1117] p-4 overflow-x-scroll rounded-xl">
         <pre>
           <code>{props.children}</code>
         </pre>
