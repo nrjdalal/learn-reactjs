@@ -3,7 +3,7 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="p-12">
+    <div className="p-4">
       <div className="pb-6">
         <Link href="/">
           <a className="font-bold italic text-blue-500">HOME</a>

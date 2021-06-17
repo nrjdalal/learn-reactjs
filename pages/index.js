@@ -3,7 +3,7 @@ import Link from 'next/link'
 const index = () => {
   return (
     <>
-      <h1 className="font-mono">useState</h1>
+      <h1>useState</h1>
 
       <Link href="/useState/basics">
         <a className="pl-7 font-mono">basics</a>
