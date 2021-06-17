@@ -1,7 +1,10 @@
 import { useEffect } from 'react'
 
-import Prism from 'prismjs'
-import 'prismjs/themes/prism-tomorrow.css'
+// import Prism from 'prismjs'
+// import 'prismjs/themes/prism-tomorrow.css'
+
+import hljs from 'highlight.js'
+import 'highlight.js/styles/github-dark.css'
 
 /*
 import CodeJavascript from '../../components/Code.js'
@@ -14,16 +17,18 @@ import CodeJavascript from '../../components/Code.js'
 
 const CodeJavascript = (props) => {
   useEffect(() => {
-    Prism.highlightAll()
+    hljs.highlightAll()
   }, [])
 
   return (
     <>
       <br />
       <br />
-      <pre>
-        <code className="language-javascript">{props.children}</code>
-      </pre>
+      <div className="bg-[#0d1117] p-4 overflow-x-scroll">
+        <pre>
+          <code>{props.children}</code>
+        </pre>
+      </div>
     </>
   )
 }
