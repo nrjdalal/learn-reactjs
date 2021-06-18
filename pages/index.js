@@ -3,7 +3,7 @@ import Link from 'next/link'
 const index = () => {
   return (
     <>
-      <div className="flex flex-col items-center font-mono pb-2">
+      <div className="flex flex-col items-center font-mono">
         <h4 className="pb-4">useState</h4>
 
         <Link href="/useState/01">
