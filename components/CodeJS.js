@@ -3,25 +3,14 @@ import { useEffect } from 'react'
 import hljs from 'highlight.js'
 import 'highlight.js/styles/github-dark.css'
 
-/*
-import CodeJavascript from '../../components/Code.js'
-<CodeJavascript>
-        {`
-
-        `}
-</CodeJavascript>
-*/
-
-const CodeJavascript = (props) => {
+const CodeJS = (props) => {
   useEffect(() => {
     hljs.highlightAll()
   }, [])
 
   return (
     <>
-      <br />
-      <br />
-      <div className="bg-[#0d1117] p-4 overflow-x-scroll rounded-xl">
+      <div className="bg-[#0d1117] mt-8 overflow-x-scroll p-4 rounded-xl text-xs">
         <pre>
           <code>{props.children}</code>
         </pre>
@@ -30,4 +19,4 @@ const CodeJavascript = (props) => {
   )
 }
 
-export default CodeJavascript
+export default CodeJS
