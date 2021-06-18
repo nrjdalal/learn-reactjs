@@ -10,6 +10,36 @@
     @apply font-semibold;
   }
 
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  h4 {
+    @apply text-base;
+  }
+  h5 {
+    @apply text-sm;
+  }
+  h6 {
+    @apply text-xs;
+  }
+
+  a,
+  code,
+  p,
+  pre {
+    @apply text-xs;
+  }
+
+  a {
+    @apply cursor-pointer;
+  }
+
   button {
     @apply border p-1 rounded focus:outline-none hover:ring-1;
   }
