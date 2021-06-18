@@ -10,11 +10,9 @@ const CodeJS = (props) => {
 
   return (
     <>
-      <div className="bg-[#0d1117] mt-8 overflow-x-scroll p-4 rounded-xl">
-        <pre>
-          <code>{props.children}</code>
-        </pre>
-      </div>
+      <pre className="bg-[#0d1117] mt-8 rounded-xl">
+        <code>{props.children}</code>
+      </pre>
     </>
   )
 }

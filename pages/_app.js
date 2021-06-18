@@ -4,8 +4,8 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="p-4">
-      <div className="flex justify-center pb-8">
+    <div className="p-4 w-screen">
+      <div className="flex justify-center mb-8">
         <Link href="/">
           <a>
             <Image alt="" src="/logo.svg" height="48" width="48" />
